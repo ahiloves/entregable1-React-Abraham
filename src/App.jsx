@@ -2,7 +2,7 @@
 // o ctrl alt para borrar todo
 import { useState } from 'react';
 import './App.css';
-import QuoteBox from './QuoteBox'; 
+import QuoteBox from './components/QuoteBox.jsx'; 
 import quotes from "./db/quotes.json";
 import { getRandomElement } from "./utils/random";
 
