@@ -9,11 +9,11 @@ const QuoteBox = ({ quote, handleChangeQuote }) => {
             <div className="quotebox_box">
                 <p>{phrase}</p>
             </div>
-            <button className = "quotebox_btn" onClick={handleChangeQuote}>
+            <button className="quotebox_btn" onClick={handleChangeQuote}>
                 <img src="/boton.svg" alt="" />
             </button> {/* Agregado onClick para el botón */}
            
-            <span className='quotebox_author'>{author}</span> {/* Corregido el nombre de la propiedad author */}
+            <span className="quotebox_author">{author}</span> {/* Corregido el nombre de la propiedad author */}
         </article>
     );
 };
