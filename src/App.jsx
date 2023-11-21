@@ -1,11 +1,10 @@
-//  cuando tenemos  importaciones que no usamos. usamos cmd + alt + o
-// ctrl alt para borrar todo
+// Cuando tenemos importaciones que no usamos, usamos cmd + alt + o
+// o ctrl alt para borrar todo
 import { useState } from 'react';
 import './App.css';
 import QuoteBox from './components/QuoteBox'; // Corregido el nombre de la importación
 import quotes from "./db/quotes.json";
 import { getRandomElement } from "./utils/random";
-
 
 const bgs = ["bg1", "bg2", "bg3", "bg4"];
 
@@ -26,5 +25,3 @@ function App() {
 }
 
 export default App; // Asegúrate de exportar el componente App para poder usarlo en otros archivos
-
-
