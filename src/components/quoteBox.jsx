@@ -2,7 +2,7 @@ import React from 'react'; // Agregado import de React para componentes de funci
 import './styles/QuoteBox.css';
 
 const QuoteBox = ({ quote, handleChangeQuote }) => {
-    const { phrase, author, videoUrl } = quote; // Corregido el nombre de la propiedad author
+    const { phrase, author } = quote; // Corregido el nombre de la propiedad author
     return (
         <article className="quotebox"> 
             <h1 className="quotebox_title">INFOGALAX</h1>
